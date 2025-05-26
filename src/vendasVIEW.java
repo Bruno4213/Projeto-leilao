@@ -35,7 +35,7 @@ public class vendasVIEW extends javax.swing.JFrame {
                 }
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Erro ao listar vendas.");
+            JOptionPane.showMessageDialog(null, "Erro ao listar as vendas.");
         }
     }
 
@@ -63,7 +63,7 @@ public class vendasVIEW extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+                "ID", "Nome", "Valor", "Status"
             }
         ));
         jScrollPane1.setViewportView(tabelaVendas);
