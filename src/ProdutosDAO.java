@@ -44,7 +44,7 @@ public class ProdutosDAO {
             if (pstm != null) pstm.close();
             if (conn != null) conn.close();
         } catch (Exception e) {
-            System.out.println("Erro ao fechar conexão: " + e.getMessage());
+            System.out.println("Erro ao fechar a conexão: " + e.getMessage());
         }
     }
 }
@@ -98,7 +98,7 @@ public class ProdutosDAO {
             if (pstm != null) pstm.close();
             if (conn != null) conn.close();
         } catch (Exception ex) {
-            System.out.println("Erro ao fechar conexão: " + ex.getMessage());
+            System.out.println("Erro ao fechar a conexão: " + ex.getMessage());
         }
     }
 }
